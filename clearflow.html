@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ClearFlow</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="clearflow.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="gallery.js"></script>
+    
+</head>
+<body>
+   <!---HomePage start------- -->
+   <section class="header" id="header">
+    <nav>
+      <button class="menu-icon" id="menu-icon" aria-label="Toggle navigation menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <div class="pf-h1">
+        <a href="#home"><h1><span class="name1">Clear</span><span class="name2">Flow</span></h1></a>
+      </div>
+      <div class="nav-links" id="nav-links" aria-hidden="true">
+        <ul id="menulist" role="menu">
+          <li role="menuitem"><a class="a-home" href="#header">Home</a></li>
+          <li role="menuitem"><a class="a-about" href="#about">About</a></li>
+          <li role="menuitem"><a class="a-poster" href="#poster">Poster</a></li>
+          <li role="menuitem"><a class="a-gallery" href="#gallery">Gallery</a></li>
+          <li role="menuitem"><a class="a-advocacy" href="#advocacy">Advocacy Video</a></li>
+          <li role="menuitem"><a class="a-aboutus" href="#aboutus">Our Team</a></li>
+          <li role="menuitem"><a class="a-contact" href="#contact">Contact Us</a></li>
+          <li role="menuitem"><a class="a-rate" href="#rate">Rate Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="text-box">
+      <H1>"Dirty Waters Beneath Blooming Flowers"</H1>
+      <P>"Be The Solution to River Pollution"</P>
+      <a href="#about"><button class="Reserve">Start the Tour</button></a>
+    </div>
+  </section>
+
+  <script>
+      const menuIcon = document.querySelector('#menu-icon');
+      const navLinks = document.querySelector('#nav-links');
+
+      menuIcon.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+      });
+  </script>
+
+<!---HomePage END----->
+
+<!---About start-->
+<section class="about" id="about">
+  <h1 class="about_title">About Our Content</h1><br>
+  <div class="about_content">
+    <p>Baguio's Balili and Bued Rivers face severe pollution, threatening aquatic life and the health of residents who rely on these waters. Efforts to combat pollution include stricter regulations, community clean-up drives, and environmental education. However, challenges persist due to the discharge of wastewater, trash dumping, and lack of discipline among residents. Preserving the natural heritage of Baguio requires a collective effort from all stakeholders. Only through collaborative action can the City of Pines ensure clean and sustainable water resources for future generations.</p>
+  </div>
+</section>
+<!---About end-->
+
+<!---Poster start-->
+<section class="poster" id="poster">
+        <h1>HELP THE ENVIRONMENT!!</h1>
+        <div class="poster-container">
+          <img src="poster113.png" alt="Image"class="poster-image">
+          <img src="poster112.png" alt="Image" class="poster-image">
+        </div>
+      </section>
+<!---Poster end-->
+
+<!---Gallery start-->
+<section class="gallery" id="gallery">
+    <h1>"Exploring Baguio's Rivers: A Visual Journey"</h1>
+    <ul class="cards">
+      <li class="card">
+        <img src="img1.jpg" alt="About image">
+        <h3>Balili river</h3>
+        <p>Serene and meandering, Balili River flows through verdant landscapes, offering a tranquil escape amidst nature's embrace in Baguio.</p>
+      </li>
+      <li class="card">
+        <img src="img2.jpg" alt="About image">
+        <h3>Guisad</h3>
+        <p>Guisad River dances through the heart of Baguio, its waters weaving past bustling streets and quiet corners, adding a touch of natural beauty to the urban landscape.</p>
+      </li>
+      <li class="card">
+        <img src="img3.jpg" alt="About image">
+        <h3>Camp 7</h3>
+        <p>Emerging from the rugged terrain of Camp 7, this river cascades down rocky slopes, its swift currents mirroring the adventurous spirit of the surrounding mountains.</p>
+      </li>
+      <li class="card">
+        <img src="img4.jpg" alt="About image">
+        <h3>Bued</h3>
+        <p>Originating from the highlands, Bued River journeys through picturesque valleys and lush forests, inviting exploration and providing sustenance to the land it traverses.</p>
+      </li>
+      <li class="card">
+        <img src="img5.jpg" alt="About image">
+        <h3>Trancoville</h3>
+        <p>Trancoville River winds its way through the quaint neighborhood of Trancoville, its gentle flow echoing the peaceful ambiance of this residential area in Baguio.</p>
+      </li>
+      <li class="card">
+        <img src="img6.jpg" alt="About image">
+        <h3>Slaughter House</h3>
+        <p>Named after the nearby slaughterhouse, this river flows with quiet dignity, carrying with it the essence of the city's history and the resilience of its people.</p>
+      </li>
+    </ul>
+  </section>
+<!---Gallery end-->
+
+<!---Advocacy start-->
+<section class="advocacy" id="advocacy">
+      
+    <div class="video-container">
+            <h1>Advocacy Video</h1>
+            <iframe width="560" height="315" src="riverwow.mp4" title="Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </section>
+<!---Advocacy end-->
+
+<!---Contact start-->
+<section class="aboutus" id="aboutus">
+  <h1 class="about_title">About Us</h1><br>
+      <h2>Our Team</h2><br>
+      <div class="about_team">
+      
+            <img src="member1.jpg" alt="">
+            <img src="member2.jpg" alt="">
+            <img src="member3.jpg" alt="">
+            <img src="member4.jpg" alt="">
+            <img src="member5.jpg" alt="">
+
+      </div>
+      <div class="about_content">
+        <p>We are a dedicated group of Baguio City students who are passionate about preserving the natural heritage of our city. Our focus is on tackling the severe pollution threatening Balili and Bued Rivers. Despite efforts to combat pollution, challenges persist due to wastewater discharge and lack of discipline. We organize clean-ups, conduct water quality tests, and advocate for better management of our rivers. Join us in safeguarding Baguio's rivers for future generations.</p>
+      </div><br><br>
+</section>
+
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="section-title">
+          <h2>Contact Us</h2>
+          <p>Email us at:</p>
+          <ul>
+            <li>Dranoel@gmail.com</li>
+            <li>jeremiahsantilices@gmail.com</li>
+            <li>oredinarenzoe@gmail.com</li>
+            <li>earlalmerino@gmail.com</li>
+            <li>rielgabot@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="rate" id="rate">
+        <h4>RATE US</h4>
+        <p>We would love to hear your thoughts!</p>
+        <a href="https://forms.gle/cTQuQ7axCp7cqUgd6" target="_blank" class="cta-btn">Answer me</a>
+      </div>
+       
+    </section>
+<!---Contact end-->
+
+<section class="references" id="references">
+  <h2>References</h2>
+  <ul>
+    <li><a href="https://www.nrdc.org/stories/water-pollution-everything-you-need-know" target="_blank">Water Pollution: Everything You Need to Know</a></li>
+    <li><a href="https://www.researchgate.net/publication/337926921_HISTORY_HYDROLOGY_AND_ECOLOGY_OF_BALILI_RIVER_LA_TRINIDAD_PHILIPPINES" target="_blank">History, Hydrology, and Ecology of Balili River, La Trinidad, Philippines</a></li>
+    <li><a href="https://newsinfo.inquirer.net/1135390/baguio-rivers-remain-heavily-polluted-denr/amp?fbclid=IwAR1RT_a-RT-pqLBoxCgiM-xNtQ8AqlbhZAOfpfkb5gHyySvjp-ZV371dqIg" target="_blank">Baguio rivers remain heavily polluted, DENR says</a></li>
+    <li><a href="https://baguioheraldexpressonline.com/balili-river-water-quality-worsens/?fbclid=IwAR0Q0SUe1BevHwAdOENNhdcrlr_ocIBVojdRxxXPNUmvs1yfRXOi3eSzkHo" target="_blank">Balili river water quality worsens</a></li>
+  </ul>
+</section>
+
+
+</body>
+</html>
